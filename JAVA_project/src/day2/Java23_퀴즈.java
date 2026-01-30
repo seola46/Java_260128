@@ -14,43 +14,33 @@ public class Java23_퀴즈 {
 //
 //		System.out.println("숫자를 입력해 주세요. : ");
 //		int input = s.nextInt();
-//		if(input < 2 || input > 9) {
-//			System.out.println("다시 입력해 주세요.");
+//		if(input < 2 && input > 9) {
+//			System.out.println("2~9 사이의 값으로 다시 입력해 주세요.");
 //		
 //		for(int i=2; i<=9; i++) {
 //			if(i % 2 == 0) {
 //				System.out.println("=== " + i + "단 ===");
-//					for(int j=1; j<=9; j++) {
-//						System.out.println(i + " * " + j + " = " + (i*j));
-//						
+//				for(int j=1; j<=9; j++) {
+//					System.out.println(i + " * " + j + " = " + (i*j));
 //					} 
 //				}	
-//					
+//				System.out.println();
 //			}
-//			System.out.println();
 //		}
 		
-		
-		Scanner s = new Scanner(System.in);
+		// 정답 및 풀이
 		for(;;) {
-			System.out.println("구구단 단수를 입력해 주세요. :");
-			
-			int num = s.nextInt();
-			
-			if(num >= 2 && num <=9) {
-				System.out.println("=== " + num + "단 ===");
-				for(int i=1; i<9; i++) {
-					System.out.println(num + " * " + i + " = " + (num*i));
+			Scanner s = new Scanner(System.in);
+			System.out.println("구구단 단수를 입력해 주세요. : ");
+			int dan = s.nextInt();
+			if(dan >= 2 && dan <=9) {
+				for(int i=1; i<=9; i++) {
+					System.out.println(dan + "*" + i + " = " + (dan*i));
 				}
 				break;
+			} else {
+				System.out.println("2부터 9 사이의 값을 입력하시오.");
 			}
 		}
-		
-		
-		
-		
-		
-		
-		
 	}
 }
