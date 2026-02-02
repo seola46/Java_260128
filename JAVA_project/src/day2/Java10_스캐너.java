@@ -12,7 +12,7 @@ public class Java10_스캐너 {
 //		s.next(); => 문자를 입력받는 기능
 //		s.nextInt(); => 숫자(정수)를 입력받는 기능
 		System.out.print("숫자를 입력해 주세요 : ");
-		int input = s.nextInt();
+		int input = s.nextInt(); // 만약, 한번 쓰고 말 거라면 굳이 변수에 넣지 않고 바로 출력(print) 가능
 		System.out.println(input >= 10);
 		s.nextInt();
 		System.out.println("== 프로그램 종료 ==");

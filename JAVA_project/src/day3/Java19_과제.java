@@ -11,6 +11,12 @@ public class Java19_과제 {
 		int[] arr = {3, 5, 2, 4, 1};
 		
 		
+		
+		
+		
+		
+		
+		
 	}
 
 }
