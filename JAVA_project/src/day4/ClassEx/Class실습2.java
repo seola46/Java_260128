@@ -13,7 +13,8 @@ public class Class실습2 {
 		Human kim = new Human("김철수", 20, 180.5, false);
 		Human park = new Human("박영희", 25, 160.5, false);
 
-		
+		int a;
+		a= 10;
 	}
 
 }

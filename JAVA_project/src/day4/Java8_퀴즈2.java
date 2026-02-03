@@ -38,8 +38,8 @@ public class Java8_퀴즈2 {
 //				}
 //			}
 		}
-		System.out.println("oddCnt => ");
-		System.out.println("evenCnt => ");
+		System.out.println("oddCnt => " + oddCnt);
+		System.out.println("evenCnt => " + evenCnt);
 		System.out.println(Arrays.toString(arr));
 			
 		
