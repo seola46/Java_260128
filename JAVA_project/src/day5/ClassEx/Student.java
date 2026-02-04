@@ -10,7 +10,7 @@ public class Student {
 	static int money_708 = 200000; // 708호 회비
 	
 	// 3개의 변수를 초기화 하는 생성자 작성
-	Student(String name, int age, String stuNo){
+	public Student(String name, int age, String stuNo){
 		this.name = name;
 		this.age = age;
 		this.stuNo = stuNo;
